@@ -4,89 +4,71 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Light Mode - Labubu Inspired Theme */
+    --background: 40 50% 98%; /* Light Beige */
+    --foreground: 240 10% 25%; /* Dark Grey */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 50 70% 96%; /* Creamy Yellow Light */
+    --card-foreground: 240 10% 25%; /* Dark Grey */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 50 70% 96%; /* Creamy Yellow Light */
+    --popover-foreground: 240 10% 25%; /* Dark Grey */
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 340 80% 88%; /* Lighter Muted Pink */
+    --primary-foreground: 340 60% 30%; /* Darker Pink Text */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 200 75% 85%; /* Gentle Blue */
+    --secondary-foreground: 200 60% 25%; /* Darker Blue Text */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 40 30% 94%; /* Lighter Warm Grey */
+    --muted-foreground: 40 15% 55%; /* Medium Warm Grey Text */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 10 85% 65%; /* Cheerful Coral */
+    --accent-foreground: 0 0% 100%; /* White */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 60%; /* Standard Red */
+    --destructive-foreground: 0 0% 100%; /* White */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 25% 90%; /* Subtle Warm Grey Border */
+    --input: 40 25% 90%; /* Subtle Warm Grey Border */
+    --ring: 150 65% 58%; /* Bright Mint Green */
 
-    --radius: 0.5rem;
+    --radius: 0.75rem; /* 12px */
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Typography */
+    --font-sans: "Nunito", sans-serif;
+    --font-heading: "Nunito", sans-serif;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark Mode - Deeper, Desaturated Labubu Theme */
+    --background: 220 20% 12%; /* Very Dark Blue/Grey */
+    --foreground: 220 20% 90%; /* Light Grey/Blue Tint */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 20% 16%; /* Slightly Lighter Dark Blue/Grey */
+    --card-foreground: 220 20% 90%; /* Light Grey/Blue Tint */
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 20% 16%; /* Slightly Lighter Dark Blue/Grey */
+    --popover-foreground: 220 20% 90%; /* Light Grey/Blue Tint */
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 340 50% 45%; /* Deeper Muted Pink */
+    --primary-foreground: 340 30% 92%; /* Light Pinkish White */
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 200 45% 50%; /* Deeper Gentle Blue */
+    --secondary-foreground: 200 30% 94%; /* Light Bluish White */
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 15% 25%; /* Darker Grey */
+    --muted-foreground: 220 10% 65%; /* Medium Grey */
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 10 60% 50%; /* Deeper Coral */
+    --accent-foreground: 0 0% 100%; /* White */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 60% 40%; /* Darker Red */
+    --destructive-foreground: 0 0% 95%; /* Light Reddish White */
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 220 15% 22%; /* Dark Grey Border */
+    --input: 220 15% 22%; /* Dark Grey Border */
+    --ring: 150 60% 70%; /* Lighter Mint Green for Dark Mode */
   }
 }
 
@@ -96,6 +78,10 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
   }
 }
